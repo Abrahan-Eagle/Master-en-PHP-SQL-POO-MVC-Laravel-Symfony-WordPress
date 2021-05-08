@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+
+    <form action="enviar.php" method="post" enctype="multipart/form-data">
+    
+        <label for="name">name</label> <br>
+        <input type="text" name="name" id="name" placeholder="name"> <br>
+        <label for="description">description</label> <br>
+        <textarea description="description" id="description" placeholder="description"></textarea> <br>
+        <input type="radio" name="genero" value="hombre">Hombre <br>
+        <input type="radio" name="genero" value="hombre">Mujer <br>
+        <input type="radio" name="genero" value="hombre">Nada <br>
+
+        <select name="gene" id="gene">
+            <option value="hombre">hombre</option>
+            <option value="mujer">mujer</option>
+            <option value="extraterreste">extraterreste</option>
+        </select> <br>
+
+        <input type="submit" value="enviar">
+
+    </form>
+
+
+    
+</body>
+</html>
